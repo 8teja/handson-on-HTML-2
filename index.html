@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.5N9_Xs11HTpkkoy_SF1aLgHaHa?w=173&h=180&c=7&r=0&o=5&pid=1.7" type="image/x-icon"
+    <title>Handson 2</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <!-- Name Field -->
+    <label for="name">Name:</label>
+    <input type="text" placeholder="Enter name" id="name" name="name" autocomplete="true" required ><br><br>
+    <label for="email">Email:</label>
+    <input type="email" placeholder="Enter email" id="email" name="email" autocomplete="true" required><br><br>
+    <label for="phno">Phone Number:</label>
+    <input type="tel" placeholder="1234567890" id="phno" name="phno" pattern="{0-9}{10}" maxlength=10 minlength=10 autocomplete="true" required><br><br>
+    <label for="pass">Password:</label>
+    <input type="password" placeholder="Enter Password" id="pass" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.[A-Z]).{8,}"    autocomplete="true" required><br><br>
+    <label for="Lanuage">Lanuage</label>
+    <input type="radio" value="react" name="Lanuage" id="react">
+     <label for="react">React</label>
+    <input type="radio" value="angular" name="Lanuage" id="angular">
+     <label for="angular">Angular</label>
+    <input type="radio" value="vue" name="Lanuage" id="vue"> 
+    <label for="vue">Vue</label><br><br>
+    <label for="course">Course:</label>
+    <input type="checkbox" name="Course1" id="MERN" value="MERN"> <label for="MERN">MERN</label>
+    <input type="checkbox" name="Course2" id="MEAN" value="MEAN"> <label for="MEAN">MEAN</label>
+    <input type="checkbox" name="Course3" id="MEVN" value="MEVN"> <label for="MEVN">MEVN</label><br><br>
+    <label for="">Field:</label><br>
+    <select name="" id="">
+        <option value="">Select field</option>
+        <option value="FrontEnd">FrontEnd Developer</option>
+        <option value="BackEnd">BackEnd Developer</option>
+        <option value="Full Stack">Full Stack Developer</option>
+    </select>
+    <br><br>
+
+    <textarea cols="10" rows="10">write something</textarea>
+
+    
+    <input type="Submit" value="Submit">
+    <br><br>
+    <h1>Tables</h1>
+    <a href="./table.html">open here</a>
+</body>
+</html>
